@@ -1,4 +1,4 @@
-# 草本智营（课程设计版）
+# 草本智营
 
 基于“知识图谱 + RAG + 多智能体”思想实现的中医企业智能营销系统 MVP。
 
@@ -54,25 +54,7 @@ streamlit run t.py
 ### 4) 合规检测
 自动检测文案中的高风险医疗宣称词（如“治疗”“根治”“保证”等）。
 
-## 推送到 GitHub（你的仓库）
-
-你给出的仓库地址：`https://github.com/Dongmain/LG.git`
-
-在项目目录执行：
-
-```bash
-git init
-git add .
-git commit -m "feat: build herb intelligent marketing MVP with Streamlit"
-git branch -M main
-git remote add origin https://github.com/Dongmain/LG.git
-git push -u origin main
-```
-
-如果推送时需要登录：
-- 建议使用 GitHub Personal Access Token（PAT）作为密码
-- 或提前执行 `gh auth login` 完成认证
 
 ## 说明
 
-本项目用于课程设计演示，重点在“系统架构与方法验证”，非医疗建议，不替代专业医生诊疗。
+本项目用于设计演示，重点在“系统架构与方法验证”，非医疗建议，不替代专业医生诊疗。
